@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-KyZXEAg3QhqLMpG8r+Knujsl5+z0I5t9z3zveCgWtSKW8P4T+Id9p8b1ODG/OA1Q5k0lOM5gjK8z+QyepE2xrw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">JAA<span>DU</span></a></div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">How It Works</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!--home-section partt-->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, Welcome To</div>
+                <div class="text-2">JAADU</div>
+                <div class="text-3">Come and Donate Your Voice</div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- about section part -->
+    <section>
+        <section class="about" id="about">
+            <div class="max-width">
+                <h2 class="title">About Me</h2>
+                <div class="about-content">
+                    <div class="column left">
+                        <img src="Background 1.jpg" alt="">
+                    </div>
+                    <div class="column right">
+                        <div class="text">I am JAADU and <span>This is How I Work</span></div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat necessitatibus beatae alias aspernatur quaerat tempore in eaque atque? Ipsam facilis deleniti reprehenderit. Reprehenderit ipsa magni qui quasi in, rerum cum voluptate animi placeat nostrum dolores, impedit inventore commodi quo, at beatae tempora culpa. Incidunt, aspernatur at sapiente aperiam praesentium eaque laborum.</p>
+    
+                    </div>
+            </div>
+    </section>
+
+  
+
+    <!-- skills part -->
+    <div class="skills_section">
+        <div class="skills_head">
+            <h2>How It <span>Works</span></h2>
+            <p>*Select your Preffered Language and Press ENTER</p>
+        </div>
+        <div class="container">
+            <div class="dropdown">
+              <div class="dropdown-select">Select Language</div>
+              <div class="dropdown-options">
+                <a href="#" data-lang="en">English</a>
+                <a href="#" data-lang="fr">Hindi</a>
+                <a href="#" data-lang="es">Telugu</a>  
+                <a href="#" data-lang="es">Marathi</a>  
+                <a href="#" data-lang="es">French</a>
+                <a href="#" data-lang="es">German</a>
+                <a href="#" data-lang="es">Italian</a>
+                <a href="#" data-lang="es">Portugese</a>
+                <a href="#" data-lang="es">Chinese</a>
+                <a href="#" data-lang="es">Arabic</a>
+                <a href="#" data-lang="es">Korean</a>
+                <a href="#" data-lang="es">Russian</a>               
+              </div>
+            </div>
+            <button class="btn-enter">Enter</button>
+          </div>
+          
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var dropdownSelect = document.querySelector('.dropdown-select');
+      var dropdownOptions = document.querySelector('.dropdown-options');
+      var btnEnter = document.querySelector('.btn-enter');
+      
+      dropdownSelect.addEventListener('click', function() {
+        dropdownOptions.style.display = dropdownOptions.style.display === 'block' ? 'none' : 'block';
+      });
+      
+      dropdownOptions.querySelectorAll('a').forEach(function(option) {
+        option.addEventListener('click', function(e) {
+          e.preventDefault();
+          dropdownSelect.textContent = option.textContent;
+          dropdownOptions.style.display = 'none';
+        });
+      });
+      
+      btnEnter.addEventListener('click', function() {
+        var selectedLanguage = dropdownSelect.textContent.toLowerCase();
+        // Redirect or perform any other action based on the selected language
+        console.log('Entering with language:', selectedLanguage);
+      });
+    });
+  </script>
+    <script src="scripts.js"></script>
+
+
+
+</body>
+</html>
