@@ -9,3 +9,11 @@ $(document).ready(function(){
         }
 })
 });
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector('.btn-enter').addEventListener('click', function() {
+      goToNewPage();
+    });
+    function goToNewPage() {
+      window.location.href = 'http://127.0.0.1:5500/Enter.html';
+    }
+  });
