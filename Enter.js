@@ -11,6 +11,9 @@ document.addEventListener("DOMContentLoaded", function() {
       case "hindi":
         textDisplay.textContent = "तौलिए वर्षों से रॉड से लटके हुए थे। वे दागदार और घिसे-पिटे थे, और स्पष्ट रूप से, बिल्कुल बदसूरत थे। डेबरा उन्हें छूना नहीं चाहती थी लेकिन उसके पास वास्तव में कोई विकल्प नहीं था। उनके लिए यह देखना महत्वपूर्ण था कि उनके भीतर क्या रह रहा है।";
         break;
+      case "german":
+        textDisplay.textContent = "Hallo, ich lebe in Neu-Delhi und bin seit 2016 hier. Ich bin 19 Jahre alt und lebe bei meinen Eltern"
+        break;
       case "spanish":
         textDisplay.textContent = "Las toallas llevaban años colgadas de la barra. Estaban manchadas y desgastadas y, francamente, simplemente feas. Debra no quería tocarlos pero realmente no tenía otra opción. Para ella era importante ver lo que vivía dentro de ellos.";
         break;
