@@ -60,12 +60,12 @@
     <div class="skills_section">
         <div class="skills_head">
             <h2>How It <span>Works</span></h2>
-            <p>*Select your Preffered Language and Press ENTER</p>
+            <p>Press ENTER To Record Your Voice</p>
         </div>
         <div class="container">
-            <div class="dropdown">
-              <div class="dropdown-select">Select Language</div>
-              <div class="dropdown-options">
+            <!-- <div class="dropdown">
+              <div class="dropdown-select">Select Language</div> -->
+              <!-- <div class="dropdown-options">
                 <a href="#" data-lang="en">English</a>
                 <a href="#" data-lang="fr">Hindi</a>
                 <a href="#" data-lang="es">Telugu</a>  
@@ -78,36 +78,10 @@
                 <a href="#" data-lang="es">Arabic</a>
                 <a href="#" data-lang="es">Korean</a>
                 <a href="#" data-lang="es">Russian</a>               
-              </div>
+              </div> -->
             </div>
             <button class="btn-enter">Enter</button>
           </div>
-          
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-      var dropdownSelect = document.querySelector('.dropdown-select');
-      var dropdownOptions = document.querySelector('.dropdown-options');
-      var btnEnter = document.querySelector('.btn-enter');
-      
-      dropdownSelect.addEventListener('click', function() {
-        dropdownOptions.style.display = dropdownOptions.style.display === 'block' ? 'none' : 'block';
-      });
-      
-      dropdownOptions.querySelectorAll('a').forEach(function(option) {
-        option.addEventListener('click', function(e) {
-          e.preventDefault();
-          dropdownSelect.textContent = option.textContent;
-          dropdownOptions.style.display = 'none';
-        });
-      });
-      
-      btnEnter.addEventListener('click', function() {
-        var selectedLanguage = dropdownSelect.textContent.toLowerCase();
-        // Redirect or perform any other action based on the selected language
-        console.log('Entering with language:', selectedLanguage);
-      });
-    });
-  </script>
     <script src="scripts.js"></script>
 
 
