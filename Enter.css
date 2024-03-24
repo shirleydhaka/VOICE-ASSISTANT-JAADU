@@ -4,14 +4,14 @@
     align-items: center;
     width: 10%; /* Adjust width as needed */
     margin-top: 100px;
-    margin-left: 717px;
+    margin-left: 563px;
     font-size: 20px;
   }
   
 #textDisplay {
     text-align: center; /* Center-align the text */
     margin-top: 113px;
-    margin-left: 535px;
+    margin-left: 389px;
     font-size: 25px;
     width: 482px;
 }
@@ -52,7 +52,7 @@ main{
   height: 8rem;
   border-radius: 50%;
   background-color: crimson;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 .mic-toggle ::after,
 .mic-toggle ::before{
