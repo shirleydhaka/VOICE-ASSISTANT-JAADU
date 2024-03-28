@@ -207,6 +207,7 @@ section{
 }
 /* .skills section styling */
 .skills_section .skills_head h2{
+    margin-top:7px;
     text-align: center;
     font-size: 35px;
     font-weight: bold
@@ -216,7 +217,8 @@ section{
     font-size: 25px;
     font-weight: bolder;
     font-weight: 100px;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-left:22px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
 body {
@@ -227,7 +229,7 @@ body {
   }
   .container {
     width: 300px;
-    margin: 50px auto;
+    margin: 36px auto;
     text-align: center;
   }
   .dropdown {
@@ -268,7 +270,7 @@ body {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-left: 600px;
+    margin-left: 592px;
   }
   .btn-enter:hover {
     background-color: #0056b3;
