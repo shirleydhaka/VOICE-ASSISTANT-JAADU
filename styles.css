@@ -213,9 +213,9 @@ section{
 
 @media (max-width:1104px){
     .about .about-content .left img{
-        height: 264px;
-        width: 277px;
-        margin-left: -80px;
+        height: 280px;
+        width: 290px;
+        margin-left: -30px;
     }
 }
 /* .skills section styling */
@@ -283,7 +283,8 @@ body {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-left: 592px;
+    left:45%;
+    position:absolute;
   }
   .btn-enter:hover {
     background-color: #0056b3;
@@ -308,7 +309,7 @@ body {
     
     .btn-enter {
         margin-top: -1px;
-        margin-left: 218px;
+     /* margin-left: 218px; */
     }
   }
   
